@@ -1,0 +1,17 @@
+{
+    "name": "books"
+    , "version": "1.0.0"
+    , "main": "server.js"
+    , "dependencies": {
+        "express": "latest"
+        ,"express-session": "latest"
+        , "angular": "latest"
+        , "sqlite3": "latest"
+        , "log4js": "latest"
+        , "sequelize": "latest"
+        , "lodash": "latest"
+        , "args-list": "latest"
+        , "body-parser": "latest"
+    }
+
+}

@@ -1,0 +1,1847 @@
+[36m[2016-03-26 13:11:36.284] [DEBUG] dicontainer - [39mRegistring Instance: config
+[36m[2016-03-26 13:11:36.814] [DEBUG] dicontainer - [39mRegistring Instance: databases
+[36m[2016-03-26 13:11:36.816] [DEBUG] dicontainer - [39mRegistring factory: bookDao
+[36m[2016-03-26 13:11:36.817] [DEBUG] dicontainer - [39mRegistring factory: bookService
+[36m[2016-03-26 13:11:36.817] [DEBUG] dicontainer - [39mRegistring factory: bookController
+[36m[2016-03-26 13:11:36.818] [DEBUG] dicontainer - [39mRegistring Instance: bookRouter
+[36m[2016-03-26 13:11:36.818] [DEBUG] dicontainer - [39mRegistring factory: authorDao
+[36m[2016-03-26 13:11:36.819] [DEBUG] dicontainer - [39mRegistring factory: authorService
+[36m[2016-03-26 13:11:36.819] [DEBUG] dicontainer - [39mRegistring factory: authorController
+[36m[2016-03-26 13:11:36.820] [DEBUG] dicontainer - [39mRegistring Instance: authorRouter
+[36m[2016-03-26 13:11:36.820] [DEBUG] dicontainer - [39mRegistring factory: seriesDao
+[36m[2016-03-26 13:11:36.821] [DEBUG] dicontainer - [39mRegistring factory: seriesService
+[36m[2016-03-26 13:11:36.822] [DEBUG] dicontainer - [39mRegistring factory: seriesController
+[36m[2016-03-26 13:11:36.822] [DEBUG] dicontainer - [39mRegistring Instance: seriesRouter
+[36m[2016-03-26 13:11:36.822] [DEBUG] dicontainer - [39mRegistring factory: dbListController
+[36m[2016-03-26 13:11:36.822] [DEBUG] dicontainer - [39mRegistring Instance: dbListRouter
+[36m[2016-03-26 13:11:36.823] [DEBUG] dicontainer - [39mLocating instance for : authorController
+[36m[2016-03-26 13:11:36.823] [DEBUG] dicontainer - [39mDidn't find instance for : authorController Trying with a Factory
+[36m[2016-03-26 13:11:36.823] [DEBUG] dicontainer - [39mLocating instance for : authorRouter
+[36m[2016-03-26 13:11:36.823] [DEBUG] dicontainer - [39mLocating instance for : authorService
+[36m[2016-03-26 13:11:36.823] [DEBUG] dicontainer - [39mDidn't find instance for : authorService Trying with a Factory
+[36m[2016-03-26 13:11:36.823] [DEBUG] dicontainer - [39mLocating instance for : authorDao
+[36m[2016-03-26 13:11:36.823] [DEBUG] dicontainer - [39mDidn't find instance for : authorDao Trying with a Factory
+[36m[2016-03-26 13:11:36.824] [DEBUG] dicontainer - [39mLocating instance for : databases
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mLocating instance for : bookController
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mDidn't find instance for : bookController Trying with a Factory
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mLocating instance for : config
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mLocating instance for : bookRouter
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mLocating instance for : bookService
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mDidn't find instance for : bookService Trying with a Factory
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mLocating instance for : bookDao
+[36m[2016-03-26 13:11:36.825] [DEBUG] dicontainer - [39mDidn't find instance for : bookDao Trying with a Factory
+[36m[2016-03-26 13:11:36.826] [DEBUG] dicontainer - [39mLocating instance for : databases
+[36m[2016-03-26 13:11:36.826] [DEBUG] dicontainer - [39mLocating instance for : seriesController
+[36m[2016-03-26 13:11:36.826] [DEBUG] dicontainer - [39mDidn't find instance for : seriesController Trying with a Factory
+[36m[2016-03-26 13:11:36.827] [DEBUG] dicontainer - [39mLocating instance for : seriesRouter
+[36m[2016-03-26 13:11:36.827] [DEBUG] dicontainer - [39mLocating instance for : seriesService
+[36m[2016-03-26 13:11:36.827] [DEBUG] dicontainer - [39mDidn't find instance for : seriesService Trying with a Factory
+[36m[2016-03-26 13:11:36.827] [DEBUG] dicontainer - [39mLocating instance for : seriesDao
+[36m[2016-03-26 13:11:36.827] [DEBUG] dicontainer - [39mDidn't find instance for : seriesDao Trying with a Factory
+[36m[2016-03-26 13:11:36.827] [DEBUG] dicontainer - [39mLocating instance for : databases
+[36m[2016-03-26 13:11:36.828] [DEBUG] dicontainer - [39mLocating instance for : dbListController
+[36m[2016-03-26 13:11:36.828] [DEBUG] dicontainer - [39mDidn't find instance for : dbListController Trying with a Factory
+[36m[2016-03-26 13:11:36.829] [DEBUG] dicontainer - [39mLocating instance for : dbListRouter
+[36m[2016-03-26 13:11:36.830] [DEBUG] dicontainer - [39mLocating instance for : bookRouter
+[36m[2016-03-26 13:11:36.830] [DEBUG] dicontainer - [39mLocating instance for : authorRouter
+[36m[2016-03-26 13:11:36.830] [DEBUG] dicontainer - [39mLocating instance for : seriesRouter
+[36m[2016-03-26 13:11:36.830] [DEBUG] dicontainer - [39mLocating instance for : dbListRouter
+Started App on port3000
+[36m[2016-03-26 13:11:51.890] [DEBUG] bookController - [39mBefore run Name:= undefined
+[36m[2016-03-26 13:11:51.890] [DEBUG] bookService - [39mBefore run Name:= undefined
+[36m[2016-03-26 13:11:51.891] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 13:11:51.919] [DEBUG] bookDao - [39mBefore run Name:= undefined offset:= undefined limit:= undefined
+[36m[2016-03-26 13:11:51.919] [DEBUG] bookDao - [39mBefore run Name:=   offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '% %' OR `book`.`author_sort` LIKE '% %') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 13:12:01.927] [DEBUG] bookController - [39mBefore run Name:= undefined
+[36m[2016-03-26 13:12:01.928] [DEBUG] bookService - [39mBefore run Name:= undefined
+[36m[2016-03-26 13:12:01.928] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 13:12:01.934] [DEBUG] bookDao - [39mBefore run Name:= undefined offset:= undefined limit:= undefined
+[36m[2016-03-26 13:12:01.935] [DEBUG] bookDao - [39mBefore run Name:=   offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '% %' OR `book`.`author_sort` LIKE '% %') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 13:12:24.887] [DEBUG] bookController - [39mBefore run Name:= tbc
+[36m[2016-03-26 13:12:24.887] [DEBUG] bookService - [39mBefore run Name:= tbc
+[36m[2016-03-26 13:12:24.887] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 13:12:24.894] [DEBUG] bookDao - [39mBefore run Name:= tbc offset:= undefined limit:= undefined
+[36m[2016-03-26 13:12:24.894] [DEBUG] bookDao - [39mBefore run Name:= tbc offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%tbc%' OR `book`.`author_sort` LIKE '%tbc%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 13:13:08.886] [DEBUG] seriesDao - [39mBefore run Id:= 76
+Executing (default): SELECT `series`.`id`, `series`.`name`, `series`.`sort`, `books`.`id` AS `books.id`, `books`.`title` AS `books.title`, `books`.`sort` AS `books.sort`, `books`.`timestamp` AS `books.timestamp`, `books`.`pubdate` AS `books.pubdate`, `books`.`series_index` AS `books.seriesIndex`, `books`.`author_sort` AS `books.authorSort`, `books`.`isbn` AS `books.isbn`, `books`.`lccn` AS `books.lccn`, `books`.`path` AS `books.path`, `books`.`flags` AS `books.flags`, `books`.`uuid` AS `books.uuid`, `books`.`has_cover` AS `books.hasCover`, `books`.`last_modified` AS `books.last_modified`, `books.bookSeries`.`id` AS `books.bookSeries.id`, `books.bookSeries`.`book` AS `books.bookSeries.book`, `books.bookSeries`.`series` AS `books.bookSeries.series`, `books.series`.`id` AS `books.series.id`, `books.series`.`name` AS `books.series.name`, `books.series`.`sort` AS `books.series.sort`, `books.series.bookSeries`.`id` AS `books.series.bookSeries.id`, `books.series.bookSeries`.`book` AS `books.series.bookSeries.book`, `books.series.bookSeries`.`series` AS `books.series.bookSeries.series`, `books.authors`.`id` AS `books.authors.id`, `books.authors`.`name` AS `books.authors.name`, `books.authors`.`sort` AS `books.authors.sort`, `books.authors`.`link` AS `books.authors.link`, `books.authors.bookAuthor`.`id` AS `books.authors.bookAuthor.id`, `books.authors.bookAuthor`.`book` AS `books.authors.bookAuthor.book`, `books.authors.bookAuthor`.`author` AS `books.authors.bookAuthor.author`, `books.formats`.`id` AS `books.formats.id`, `books.formats`.`book` AS `books.formats.book`, `books.formats`.`format` AS `books.formats.format`, `books.formats`.`format` AS `books.formats.uncompressed_size`, `books.formats`.`name` AS `books.formats.name` FROM `series` AS `series` LEFT OUTER JOIN `books_series_link` AS `books.bookSeries` ON `series`.`id` = `books.bookSeries`.`series` LEFT OUTER JOIN `books` AS `books` ON `books`.`id` = `books.bookSeries`.`book` LEFT OUTER JOIN `books_series_link` AS `books.series.bookSeries` ON `books`.`id` = `books.series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `books.series` ON `books.series`.`id` = `books.series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `books.authors.bookAuthor` ON `books`.`id` = `books.authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `books.authors` ON `books.authors`.`id` = `books.authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `books.formats` ON `books`.`id` = `books.formats`.`book` WHERE `series`.`id` = '76';
+[36m[2016-03-26 13:13:47.748] [DEBUG] bookController - [39mBefore run Id:= 949
+[36m[2016-03-26 13:13:47.748] [DEBUG] bookService - [39mBefore run Id:= 949
+[36m[2016-03-26 13:13:47.749] [DEBUG] bookDao - [39mBefore run Id:= 949
+Executing (default): SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified`, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM `books` AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` WHERE `book`.`id` = '949';
+[36m[2016-03-26 13:13:54.288] [DEBUG] bookController - [39mfile:=Gertrude Chandler Warner/The Boxcar Children 118_ Spy Game (949)/The Boxcar Children 118_ Spy Game - Gertrude Chandler Warner.EPUB
+[36m[2016-03-26 13:14:30.655] [DEBUG] bookController - [39mBefore run Name:= undefined
+[36m[2016-03-26 13:14:30.655] [DEBUG] bookService - [39mBefore run Name:= undefined
+[36m[2016-03-26 13:14:30.655] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 13:14:30.660] [DEBUG] bookDao - [39mBefore run Name:= undefined offset:= undefined limit:= undefined
+[36m[2016-03-26 13:14:30.660] [DEBUG] bookDao - [39mBefore run Name:=   offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '% %' OR `book`.`author_sort` LIKE '% %') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:23:30.615] [DEBUG] bookController - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:23:30.633] [DEBUG] bookService - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:23:30.633] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:23:30.636] [DEBUG] bookDao - [39mBefore run Name:= undefined offset:= undefined limit:= undefined
+[36m[2016-03-26 14:23:30.636] [DEBUG] bookDao - [39mBefore run Name:=   offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '% %' OR `book`.`author_sort` LIKE '% %') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:24:05.060] [DEBUG] bookController - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:24:05.060] [DEBUG] bookService - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:24:05.061] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:24:05.065] [DEBUG] bookDao - [39mBefore run Name:= undefined offset:= undefined limit:= undefined
+[36m[2016-03-26 14:24:05.065] [DEBUG] bookDao - [39mBefore run Name:=   offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '% %' OR `book`.`author_sort` LIKE '% %') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:24:08.583] [DEBUG] bookController - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:24:08.584] [DEBUG] bookService - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:24:08.584] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:24:08.587] [DEBUG] bookDao - [39mBefore run Name:= undefined offset:= undefined limit:= undefined
+[36m[2016-03-26 14:24:08.587] [DEBUG] bookDao - [39mBefore run Name:=   offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '% %' OR `book`.`author_sort` LIKE '% %') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:24:15.538] [DEBUG] bookController - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:24:15.538] [DEBUG] bookService - [39mBefore run Name:= undefined
+[36m[2016-03-26 14:24:15.538] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:24:15.542] [DEBUG] bookDao - [39mBefore run Name:= undefined offset:= undefined limit:= undefined
+[36m[2016-03-26 14:24:15.543] [DEBUG] bookDao - [39mBefore run Name:=   offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '% %' OR `book`.`author_sort` LIKE '% %') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:24:19.875] [DEBUG] bookController - [39mBefore run Name:= Nora
+[36m[2016-03-26 14:24:19.875] [DEBUG] bookService - [39mBefore run Name:= Nora
+[36m[2016-03-26 14:24:19.875] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:24:19.879] [DEBUG] bookDao - [39mBefore run Name:= Nora offset:= undefined limit:= undefined
+[36m[2016-03-26 14:24:19.879] [DEBUG] bookDao - [39mBefore run Name:= Nora offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Nora%' OR `book`.`author_sort` LIKE '%Nora%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:24:24.978] [DEBUG] authorDao - [39mBefore run Id:= 335
+Executing (default): SELECT `author`.`id`, `author`.`name`, `author`.`sort`, `author`.`link`, `books`.`id` AS `books.id`, `books`.`title` AS `books.title`, `books`.`sort` AS `books.sort`, `books`.`timestamp` AS `books.timestamp`, `books`.`pubdate` AS `books.pubdate`, `books`.`series_index` AS `books.seriesIndex`, `books`.`author_sort` AS `books.authorSort`, `books`.`isbn` AS `books.isbn`, `books`.`lccn` AS `books.lccn`, `books`.`path` AS `books.path`, `books`.`flags` AS `books.flags`, `books`.`uuid` AS `books.uuid`, `books`.`has_cover` AS `books.hasCover`, `books`.`last_modified` AS `books.last_modified`, `books.bookAuthor`.`id` AS `books.bookAuthor.id`, `books.bookAuthor`.`book` AS `books.bookAuthor.book`, `books.bookAuthor`.`author` AS `books.bookAuthor.author`, `books.series`.`id` AS `books.series.id`, `books.series`.`name` AS `books.series.name`, `books.series`.`sort` AS `books.series.sort`, `books.series.bookSeries`.`id` AS `books.series.bookSeries.id`, `books.series.bookSeries`.`book` AS `books.series.bookSeries.book`, `books.series.bookSeries`.`series` AS `books.series.bookSeries.series`, `books.authors`.`id` AS `books.authors.id`, `books.authors`.`name` AS `books.authors.name`, `books.authors`.`sort` AS `books.authors.sort`, `books.authors`.`link` AS `books.authors.link`, `books.authors.bookAuthor`.`id` AS `books.authors.bookAuthor.id`, `books.authors.bookAuthor`.`book` AS `books.authors.bookAuthor.book`, `books.authors.bookAuthor`.`author` AS `books.authors.bookAuthor.author`, `books.formats`.`id` AS `books.formats.id`, `books.formats`.`book` AS `books.formats.book`, `books.formats`.`format` AS `books.formats.format`, `books.formats`.`format` AS `books.formats.uncompressed_size`, `books.formats`.`name` AS `books.formats.name` FROM `authors` AS `author` LEFT OUTER JOIN `books_authors_link` AS `books.bookAuthor` ON `author`.`id` = `books.bookAuthor`.`author` LEFT OUTER JOIN `books` AS `books` ON `books`.`id` = `books.bookAuthor`.`book` LEFT OUTER JOIN `books_series_link` AS `books.series.bookSeries` ON `books`.`id` = `books.series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `books.series` ON `books.series`.`id` = `books.series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `books.authors.bookAuthor` ON `books`.`id` = `books.authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `books.authors` ON `books.authors`.`id` = `books.authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `books.formats` ON `books`.`id` = `books.formats`.`book` WHERE `author`.`id` = '335';
+[36m[2016-03-26 14:25:50.634] [DEBUG] bookController - [39mBefore run Name:= Star trek
+[36m[2016-03-26 14:25:50.634] [DEBUG] bookService - [39mBefore run Name:= Star trek
+[36m[2016-03-26 14:25:50.634] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:25:50.639] [DEBUG] bookDao - [39mBefore run Name:= Star trek offset:= undefined limit:= undefined
+[36m[2016-03-26 14:25:50.640] [DEBUG] bookDao - [39mBefore run Name:= Star trek offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Star trek%' OR `book`.`author_sort` LIKE '%Star trek%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:26:18.225] [DEBUG] bookController - [39mBefore run Name:= Star academy
+[36m[2016-03-26 14:26:18.226] [DEBUG] bookService - [39mBefore run Name:= Star academy
+[36m[2016-03-26 14:26:18.226] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:26:18.230] [DEBUG] bookDao - [39mBefore run Name:= Star academy offset:= undefined limit:= undefined
+[36m[2016-03-26 14:26:18.230] [DEBUG] bookDao - [39mBefore run Name:= Star academy offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Star academy%' OR `book`.`author_sort` LIKE '%Star academy%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:26:39.017] [DEBUG] bookController - [39mBefore run Name:= Abram
+[36m[2016-03-26 14:26:39.017] [DEBUG] bookService - [39mBefore run Name:= Abram
+[36m[2016-03-26 14:26:39.017] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:26:39.021] [DEBUG] bookDao - [39mBefore run Name:= Abram offset:= undefined limit:= undefined
+[36m[2016-03-26 14:26:39.021] [DEBUG] bookDao - [39mBefore run Name:= Abram offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Abram%' OR `book`.`author_sort` LIKE '%Abram%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:26:47.587] [DEBUG] seriesDao - [39mBefore run Id:= 210
+Executing (default): SELECT `series`.`id`, `series`.`name`, `series`.`sort`, `books`.`id` AS `books.id`, `books`.`title` AS `books.title`, `books`.`sort` AS `books.sort`, `books`.`timestamp` AS `books.timestamp`, `books`.`pubdate` AS `books.pubdate`, `books`.`series_index` AS `books.seriesIndex`, `books`.`author_sort` AS `books.authorSort`, `books`.`isbn` AS `books.isbn`, `books`.`lccn` AS `books.lccn`, `books`.`path` AS `books.path`, `books`.`flags` AS `books.flags`, `books`.`uuid` AS `books.uuid`, `books`.`has_cover` AS `books.hasCover`, `books`.`last_modified` AS `books.last_modified`, `books.bookSeries`.`id` AS `books.bookSeries.id`, `books.bookSeries`.`book` AS `books.bookSeries.book`, `books.bookSeries`.`series` AS `books.bookSeries.series`, `books.series`.`id` AS `books.series.id`, `books.series`.`name` AS `books.series.name`, `books.series`.`sort` AS `books.series.sort`, `books.series.bookSeries`.`id` AS `books.series.bookSeries.id`, `books.series.bookSeries`.`book` AS `books.series.bookSeries.book`, `books.series.bookSeries`.`series` AS `books.series.bookSeries.series`, `books.authors`.`id` AS `books.authors.id`, `books.authors`.`name` AS `books.authors.name`, `books.authors`.`sort` AS `books.authors.sort`, `books.authors`.`link` AS `books.authors.link`, `books.authors.bookAuthor`.`id` AS `books.authors.bookAuthor.id`, `books.authors.bookAuthor`.`book` AS `books.authors.bookAuthor.book`, `books.authors.bookAuthor`.`author` AS `books.authors.bookAuthor.author`, `books.formats`.`id` AS `books.formats.id`, `books.formats`.`book` AS `books.formats.book`, `books.formats`.`format` AS `books.formats.format`, `books.formats`.`format` AS `books.formats.uncompressed_size`, `books.formats`.`name` AS `books.formats.name` FROM `series` AS `series` LEFT OUTER JOIN `books_series_link` AS `books.bookSeries` ON `series`.`id` = `books.bookSeries`.`series` LEFT OUTER JOIN `books` AS `books` ON `books`.`id` = `books.bookSeries`.`book` LEFT OUTER JOIN `books_series_link` AS `books.series.bookSeries` ON `books`.`id` = `books.series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `books.series` ON `books.series`.`id` = `books.series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `books.authors.bookAuthor` ON `books`.`id` = `books.authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `books.authors` ON `books.authors`.`id` = `books.authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `books.formats` ON `books`.`id` = `books.formats`.`book` WHERE `series`.`id` = '210';
+[36m[2016-03-26 14:27:06.364] [DEBUG] bookController - [39mBefore run Name:= Starfleet academy
+[36m[2016-03-26 14:27:06.364] [DEBUG] bookService - [39mBefore run Name:= Starfleet academy
+[36m[2016-03-26 14:27:06.364] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:27:06.369] [DEBUG] bookDao - [39mBefore run Name:= Starfleet academy offset:= undefined limit:= undefined
+[36m[2016-03-26 14:27:06.369] [DEBUG] bookDao - [39mBefore run Name:= Starfleet academy offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Starfleet academy%' OR `book`.`author_sort` LIKE '%Starfleet academy%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:28:27.126] [DEBUG] bookController - [39mBefore run Name:= Grey
+[36m[2016-03-26 14:28:27.127] [DEBUG] bookService - [39mBefore run Name:= Grey
+[36m[2016-03-26 14:28:27.127] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:28:27.130] [DEBUG] bookDao - [39mBefore run Name:= Grey offset:= undefined limit:= undefined
+[36m[2016-03-26 14:28:27.130] [DEBUG] bookDao - [39mBefore run Name:= Grey offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Grey%' OR `book`.`author_sort` LIKE '%Grey%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:28:38.482] [DEBUG] authorDao - [39mBefore run Id:= 4873
+Executing (default): SELECT `author`.`id`, `author`.`name`, `author`.`sort`, `author`.`link`, `books`.`id` AS `books.id`, `books`.`title` AS `books.title`, `books`.`sort` AS `books.sort`, `books`.`timestamp` AS `books.timestamp`, `books`.`pubdate` AS `books.pubdate`, `books`.`series_index` AS `books.seriesIndex`, `books`.`author_sort` AS `books.authorSort`, `books`.`isbn` AS `books.isbn`, `books`.`lccn` AS `books.lccn`, `books`.`path` AS `books.path`, `books`.`flags` AS `books.flags`, `books`.`uuid` AS `books.uuid`, `books`.`has_cover` AS `books.hasCover`, `books`.`last_modified` AS `books.last_modified`, `books.bookAuthor`.`id` AS `books.bookAuthor.id`, `books.bookAuthor`.`book` AS `books.bookAuthor.book`, `books.bookAuthor`.`author` AS `books.bookAuthor.author`, `books.series`.`id` AS `books.series.id`, `books.series`.`name` AS `books.series.name`, `books.series`.`sort` AS `books.series.sort`, `books.series.bookSeries`.`id` AS `books.series.bookSeries.id`, `books.series.bookSeries`.`book` AS `books.series.bookSeries.book`, `books.series.bookSeries`.`series` AS `books.series.bookSeries.series`, `books.authors`.`id` AS `books.authors.id`, `books.authors`.`name` AS `books.authors.name`, `books.authors`.`sort` AS `books.authors.sort`, `books.authors`.`link` AS `books.authors.link`, `books.authors.bookAuthor`.`id` AS `books.authors.bookAuthor.id`, `books.authors.bookAuthor`.`book` AS `books.authors.bookAuthor.book`, `books.authors.bookAuthor`.`author` AS `books.authors.bookAuthor.author`, `books.formats`.`id` AS `books.formats.id`, `books.formats`.`book` AS `books.formats.book`, `books.formats`.`format` AS `books.formats.format`, `books.formats`.`format` AS `books.formats.uncompressed_size`, `books.formats`.`name` AS `books.formats.name` FROM `authors` AS `author` LEFT OUTER JOIN `books_authors_link` AS `books.bookAuthor` ON `author`.`id` = `books.bookAuthor`.`author` LEFT OUTER JOIN `books` AS `books` ON `books`.`id` = `books.bookAuthor`.`book` LEFT OUTER JOIN `books_series_link` AS `books.series.bookSeries` ON `books`.`id` = `books.series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `books.series` ON `books.series`.`id` = `books.series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `books.authors.bookAuthor` ON `books`.`id` = `books.authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `books.authors` ON `books.authors`.`id` = `books.authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `books.formats` ON `books`.`id` = `books.formats`.`book` WHERE `author`.`id` = '4873';
+[36m[2016-03-26 14:28:43.372] [DEBUG] bookController - [39mBefore run Name:= Grey
+[36m[2016-03-26 14:28:43.372] [DEBUG] bookService - [39mBefore run Name:= Grey
+[36m[2016-03-26 14:28:43.372] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:28:43.377] [DEBUG] bookDao - [39mBefore run Name:= Grey offset:= undefined limit:= undefined
+[36m[2016-03-26 14:28:43.378] [DEBUG] bookDao - [39mBefore run Name:= Grey offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Grey%' OR `book`.`author_sort` LIKE '%Grey%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:28:51.018] [DEBUG] bookController - [39mBefore run Name:= Ludlum
+[36m[2016-03-26 14:28:51.020] [DEBUG] bookService - [39mBefore run Name:= Ludlum
+[36m[2016-03-26 14:28:51.020] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:28:51.025] [DEBUG] bookDao - [39mBefore run Name:= Ludlum offset:= undefined limit:= undefined
+[36m[2016-03-26 14:28:51.025] [DEBUG] bookDao - [39mBefore run Name:= Ludlum offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Ludlum%' OR `book`.`author_sort` LIKE '%Ludlum%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;
+[36m[2016-03-26 14:29:22.444] [DEBUG] bookController - [39mBefore run Name:= Archer
+[36m[2016-03-26 14:29:22.445] [DEBUG] bookService - [39mBefore run Name:= Archer
+[36m[2016-03-26 14:29:22.445] [DEBUG] bookDao - [39m{ children: 
+   { name: 'children',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  main: 
+   { name: 'main',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  commics: 
+   { name: 'commics',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  computer: 
+   { name: 'computer',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } },
+  kidspdf: 
+   { name: 'kidspdf',
+     path: '/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db',
+     sequelize: 
+      { options: [Object],
+        config: [Object],
+        dialect: [Object],
+        models: [Object],
+        modelManager: [Object],
+        connectionManager: [Object],
+        importCache: [Object],
+        test: [Object],
+        queryInterface: [Object] },
+     models: 
+      { author: author,
+        book: book,
+        bookAuthor: bookAuthor,
+        bookFormat: bookFormat,
+        bookSeries: bookSeries,
+        series: series } } }
+[36m[2016-03-26 14:29:22.449] [DEBUG] bookDao - [39mBefore run Name:= Archer offset:= undefined limit:= undefined
+[36m[2016-03-26 14:29:22.449] [DEBUG] bookDao - [39mBefore run Name:= Archer offset:= 0 limit:= 100
+Executing (default): SELECT `book`.*, `series`.`id` AS `series.id`, `series`.`name` AS `series.name`, `series`.`sort` AS `series.sort`, `series.bookSeries`.`id` AS `series.bookSeries.id`, `series.bookSeries`.`book` AS `series.bookSeries.book`, `series.bookSeries`.`series` AS `series.bookSeries.series`, `authors`.`id` AS `authors.id`, `authors`.`name` AS `authors.name`, `authors`.`sort` AS `authors.sort`, `authors`.`link` AS `authors.link`, `authors.bookAuthor`.`id` AS `authors.bookAuthor.id`, `authors.bookAuthor`.`book` AS `authors.bookAuthor.book`, `authors.bookAuthor`.`author` AS `authors.bookAuthor.author`, `formats`.`id` AS `formats.id`, `formats`.`book` AS `formats.book`, `formats`.`format` AS `formats.format`, `formats`.`format` AS `formats.uncompressed_size`, `formats`.`name` AS `formats.name` FROM (SELECT `book`.`id`, `book`.`title`, `book`.`sort`, `book`.`timestamp`, `book`.`pubdate`, `book`.`series_index` AS `seriesIndex`, `book`.`author_sort` AS `authorSort`, `book`.`isbn`, `book`.`lccn`, `book`.`path`, `book`.`flags`, `book`.`uuid`, `book`.`has_cover` AS `hasCover`, `book`.`last_modified` FROM `books` AS `book` WHERE (`book`.`title` LIKE '%Archer%' OR `book`.`author_sort` LIKE '%Archer%') ORDER BY `book`.`title` ASC LIMIT 100) AS `book` LEFT OUTER JOIN `books_series_link` AS `series.bookSeries` ON `book`.`id` = `series.bookSeries`.`book` LEFT OUTER JOIN `series` AS `series` ON `series`.`id` = `series.bookSeries`.`series` LEFT OUTER JOIN `books_authors_link` AS `authors.bookAuthor` ON `book`.`id` = `authors.bookAuthor`.`book` LEFT OUTER JOIN `authors` AS `authors` ON `authors`.`id` = `authors.bookAuthor`.`author` LEFT OUTER JOIN `data` AS `formats` ON `book`.`id` = `formats`.`book` ORDER BY `book`.`title` ASC;

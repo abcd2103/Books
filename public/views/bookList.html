@@ -1,0 +1,26 @@
+<table ng-table="bookList" border="1" class="table ng-table-responsive">
+    <thead>
+        <tr>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Series</th>
+            <th>Format</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="book in books">
+            <td data-title="'Title'"><a ng-href="#/view/{{book.id}}">{{book.title}}</a> {{book.author.name}}
+            </td>
+            <td data-title="'Author'"><span ng-repeat="author in book.authors"> <a
+					ng-href="#/author/{{author.id}}">{{author.name}}</a>
+			</span></td>
+            <td data-title="'Series'"><span ng-repeat="series in book.series"> <a
+					ng-href="#/series/{{series.id}}">{{series.name}}</a>
+			</span></td>
+            <td data-title="'Format'"><span ng-repeat="format in book.formats"> <a
+					ng-href="/book/getFile?file={{book.path| encodeURIComponent}}/{{format.name| encodeURIComponent}}.{{format.format}}&dbName={{dbName}}">{{format.format}}</a>
+			</span></td>
+
+        </tr>
+    </tbody>
+</table>

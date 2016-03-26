@@ -1,0 +1,31 @@
+{
+    "publicFolder": "public"
+    , "databases": {
+        "children": {
+            "name": "children"
+            , "path": "/Volumes/FreeAgentDrive1/Books/Calibre_Children_books/metadata.db"
+            , "folder": "/Volumes/FreeAgentDrive1/Books/Calibre_Children_books"
+        }
+        , "main": {
+            "name": "main"
+            , "path": "/Volumes/FreeAgentDrive1/Books/Calibre Library/metadata.db"
+            , "folder": "/Volumes/FreeAgentDrive1/Books/Calibre Library"
+        }
+        , "commics": {
+            "name": "commics"
+            , "path": "/Volumes/FreeAgentDrive1/Books/Calibre_Commics/metadata.db"
+            , "folder": "/Volumes/FreeAgentDrive1/Books/Calibre_Commics"
+        }
+        , "computer": {
+            "name": "computer"
+            , "path": "/Volumes/FreeAgentDrive1/Books/Calibre_Computer/metadata.db"
+            , "folder": "/Volumes/FreeAgentDrive1/Books/Calibre_Computer"
+        }
+        , "kidspdf": {
+            "name": "kidspdf"
+            , "path": "/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF/metadata.db"
+            , "folder": "/Volumes/FreeAgentDrive1/Books/Calibre_KidsPDF"
+        }
+
+    }
+}

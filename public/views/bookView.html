@@ -1,0 +1,28 @@
+<div class="row">
+    <span class="col-sm-1">Title</span> <span>{{book.title}}</span>
+</div>
+
+
+<div class="row">
+    <span class="col-sm-1">Authors</span> <span> <span
+		ng-repeat="author in book.authors"><a
+			ng-href="#/author/{{author.id}}">{{author.name}}</a></span></span>
+</div>
+
+<div class="row">
+    <span class="col-sm-1">Series</span> <span ng-repeat="series in book.series"> <a
+		ng-href="#/series/{{series.id}}">{{series.name}}</a>
+	</span>
+
+</div>
+
+<div class="row">
+    <span class="col-sm-1">Formats</span> <span ng-repeat="format in book.formats"> <a
+ng-href="/book/getFile?file={{book.path}}/{{format.name}}.{{format.format}}&dbName={{dbName}}">{{format.format}}</a>
+	</span>
+</div>
+
+<div class="row">
+    <span class="col-sm-1">Comments</span> <span ng-repeat="comment in book.comments">
+			<span ng-bind-html="comment.text"></span></span>
+</div>

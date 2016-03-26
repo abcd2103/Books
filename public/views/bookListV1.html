@@ -1,0 +1,30 @@
+<div class="row">
+<div class=col-md-4>Title</div>
+<div class=col-md-3>Author</div>
+<div class=col-md-3>Series</div>
+<div class=col-md-2>Format</div>
+</div>
+<div ng-repeat="book in books">
+	<div class="row">
+		<div class="col-md-4">
+			<a ng-href="#/view/{{book.id}}">{{book.title}}</a>
+			{{book.author.name}}
+		</div>
+		<div class="col-md-3">
+			<span ng-repeat="author in book.authors"> <a
+				ng-href="#/author/{{author.id}}">{{author.name}}</a>
+			</span>
+		</div>
+		<div class="col-md-3">
+			<span ng-repeat="series in book.series"> <a
+				ng-href="#/series/{{series.id}}">{{series.name}}</a>
+			</span>
+
+		</div>
+		<div class="col-md-2" >
+			<span ng-repeat="format in book.formats"> <a
+				ng-href="#/view/{{book.id}}">{{format.format}}</a>
+			</span>
+		</div>
+	</div>
+</div>
